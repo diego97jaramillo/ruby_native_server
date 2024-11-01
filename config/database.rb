@@ -3,10 +3,9 @@ require 'active_record'
 # Establish the database connection
 ActiveRecord::Base.establish_connection(
   adapter: 'postgresql',
-  host: 'localhost',      # or the IP address of your PostgreSQL server
-  port: 5435,
-  username: 'postgres', # your PostgreSQL username
-  password: 'Diego97', # your PostgreSQL password
-  database: 'ruby_native'  # the name of your database
+  host: 'dpg-csieo8aj1k6c73ascu3g-a.oregon-postgres.render.com',
+  port: 5432, # Verifica en Render si es diferente
+  username: 'ruby_native_user',
+  password: 'MnQvVqeNM2tythEVcKv4ZXpY8wbjVBAP',
+  database: 'ruby_native' # the name of your database
 )
- 
